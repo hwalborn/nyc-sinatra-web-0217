@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <% Landmark.all.each do |landmark| %>
+    <h2>Name: <%= landmark.name %></h2>
+    <h2>Year Completed: <%= landmark.year_completed %></h2>
+    <br></br>
+    <% end %>
+  </body>
+</html>
